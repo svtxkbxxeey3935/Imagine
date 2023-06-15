@@ -69,7 +69,7 @@ export const cwebp: IOptimizeMethod = (
   options,
 ) => {
   const { quality = 80 } = options
-
+  const _debugger = true
   const spawnArgs = [
     '-q',
     quality.toString(),
